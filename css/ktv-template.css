@@ -1,0 +1,342 @@
+body {
+    font-family: "微软雅黑";
+    color: #666;
+}
+/* header start */
+.header-iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* header end */
+/* screen01 start */
+    .screen01 {
+        margin-top: 39px;
+        height: 439px;
+        background: url(../img/ktv-template-screen01-bg.png);
+        background-size: cover;
+    }
+    .screen01-content,.screen03-content {
+        width: 100%;
+    }
+    .screen01-lt > img:nth-child(1) {
+        width: 53%;
+        height: 76px;
+        padding: 18px 30px;
+        background: #272727;
+    }
+    .screen01-lt > img:nth-child(2) {
+        width: 100%;
+        position: relative;
+        padding-left: 10px;
+        padding-top: 19px;
+        margin-left: 53px;
+    }
+    .screen01-rt > img:first-child {
+        width: 82.5%;
+        padding-top: 102px;
+        margin-left: -40px;
+    }
+    .screen01-rt > ul {
+        width: 72.5%;
+        height: 64px;
+        margin-top: 58px;
+        background: url(../img/ktv-template-screen01-rt-ct.png) no-repeat;
+        background-size: contain;
+        color: #fff600;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        font-weight: bold;
+    }
+    .screen01-rt > ul > li+li {
+        margin-left: 3.63em;
+        padding-top: 0.5em;
+    }
+    .screen01-rt > ul > li:nth-of-type(3) {
+        margin-left: 3.8em;
+    }
+    .screen01-rt > p {
+        color: #000;
+        font-size: 1.71em;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-left: -40px;
+    }
+    .screen01-rt > p > em {
+        color: #f95902;
+        font-size: 1.33em;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .screen01-rt > img:last-child {
+        width: 30%;
+        margin-left: -40px;
+    }
+/* screen01 end */
+/* screen02 start */
+    .screen02 {
+        position: relative;
+        width: 100%;
+        height: 528px;
+        margin-top: 185px;
+        background: url(../img/ktv-template-screen02-bg.png) center center no-repeat;
+        background-size: cover;
+    }
+/* screen02 end */
+/* screen03 start */
+    .screen03 {
+        background: url(../img/ktv-template-screen01-bg.png);
+        position: relative;
+    }
+    .screen03-content > img {
+        width: 100%;
+    }
+    .screen03-content > img:first-child {
+        width: 91.58%;
+        margin-top: -90px;
+        margin-left: -1px;
+    }
+/* screen03 end */
+/* screen04 start */
+    .screen04 {
+        width: 100%;
+        height: 551px;
+        background: url(../img/ktv-template-screen04-bg.png) center center no-repeat;
+        background-size: cover;
+    }
+/* screen04 end */
+/* screen05 start */
+    .screen05 {
+        width: 100%;
+        background: url(../img/ktv-template-screen01-bg.png);
+    }
+    .screen05-box > div:nth-of-type(1) {
+        position: relative;
+        margin-left:0;
+    }
+    .screen05-line {
+        position: relative;
+        margin-top: 17em;
+    }
+    .screen05-line > img {
+        position: absolute;
+        left: 9.5em;
+        z-index: 1;
+    }
+    .screen05-text-cont {
+        position: absolute;
+        color: #fffc00;
+        left: 4em;
+        top: 26.5em;
+        white-space: nowrap;
+    }
+    .screen05-text-cont h1 {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .screen05-text-cont p {
+        font-size: 1.3em;
+        font-weight: bold;
+        line-height: 1.3em;
+    }
+    .screen05-box > div:nth-of-type(2) > img{
+        width: 92%;
+        margin-top: -86px;
+    }
+    .screen05-box > div:nth-of-type(3) {
+        margin-left: -121px;
+        margin-top: 109px;
+    }
+    .screen05-box > div:nth-of-type(3) > img:first-child {
+        width: 139%;
+    }
+    .screen05-box > div:nth-of-type(3) > img:nth-of-type(2) {
+        width: 123%;
+    }
+    .screen05-box > div:nth-of-type(3) > img:nth-of-type(3) {
+        width: 111%;
+    }
+    .screen05-box > div:nth-of-type(3) > img:last-child {
+        width: 117%;
+    }
+/* screen05 end */
+/* screen06 start */
+    .screen06 {
+        width: 100%;
+        height: 518px;
+        background: url(../img/ktv-template-screen06-bg.jpg) center center no-repeat;
+        background-size: cover;
+    }
+/* screen06 end */
+/* screen07 start */
+    .screen07 {
+        padding-top: 3.5em;
+    }
+    .screen07-box > img:nth-of-type(1) {
+        width: 48%;
+    }
+    .screen07-box > img:nth-of-type(2) {
+        width: 68.5%;
+        position: relative;
+        left: -0.55em;
+    }
+    .screen07-box > img:nth-of-type(3) {
+        width: 47.1%;
+    }
+    .screen07-box > p {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 3em;
+    }
+/* screen07 end */
+@media (max-width:1199px){
+   .screen01 {
+        height: 361px;
+        font-size: 12.9px;
+    }
+    .screen01-lt > img:nth-child(1) {
+        height: 66px;
+    }
+    .screen01-rt > ul {
+        margin-left: 4.1em;
+        margin-top: 1.97em;
+    }
+    .screen01-rt > ul > li+li {
+        margin-left: 2.9em;
+    }
+    .screen01-rt > ul > li:nth-of-type(3) {
+        margin-left: 2.9em;
+    }
+    .screen01-rt > p {
+        padding-top: 0;
+        margin-top: -16px;
+    }
+    .screen02 {
+        height: 375px;
+        margin-top: 149px;
+    }
+    .screen04 {
+        height: 375px;
+    }
+    .screen03-content > img:first-child {
+        margin-top: -86px;
+    }
+    .screen05-box > div:nth-of-type(2) > img {
+        margin-top: -70px;
+    }
+    .screen05-line {
+        margin-top: 14em;
+    }
+    .screen05-line > img {
+        left: 10.3em;
+        width: 113%;
+    }
+    .screen05-text-cont {
+        font-size: 10px;
+        left: 7em;
+        top: 23.5em;
+    }
+    .screen05-text-cont h1 {
+        margin-top: 0.6em;
+    }
+    .screen05-box > div:nth-of-type(3) {
+        margin-left: -104px;
+        margin-top: 96px;
+    }
+    .screen07 {
+        padding-top: 2.5em;
+    }
+}
+@media (max-width:991px){
+   .screen01 {
+        height: 361px;
+        font-size: 12px;
+    }
+    .screen01-lt > img:nth-child(1) {
+        width: 77%;
+    }
+    .screen01-lt > img:nth-child(2) {
+        width: 130%;
+        padding-left: 0px;
+        margin-left: 0;
+    }
+    .screen01-rt > img:first-child,.screen01-rt > img:last-child,.screen01-rt > img:nth-child(2),.screen01-rt > p {
+        margin-left: 0;
+    }
+    .screen01-rt > img:first-child {
+        padding-top: 88px;
+    }
+    .screen01-rt > ul {
+        margin-top: 100px;
+        margin-left: 61px;
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: normal;
+    }
+    .screen01-rt > ul > li+li {
+        margin-left: 2.6em;
+    }
+    .screen01-rt > ul > li:nth-of-type(3) {
+        margin-left: 2.6em;
+    }
+    .screen02 {
+        height: 450px;
+        margin-top: 149px;
+    }
+    .screen03 {
+        margin-top: -120px;
+    }
+    .screen03-content > img:first-child {
+        margin-top: -66px;
+    }
+    .screen04 {
+        height: 450px;
+    }
+    .screen05 {
+        margin-top: -80px;
+    }
+    .screen05-box > div:nth-of-type(2) > img {
+        margin-top: -53px;
+    }
+    .screen05-box > div:nth-of-type(3) {
+        margin-left: -86px;
+        margin-top: 76px;
+    }
+    .screen05-line {
+        margin-top: 11em;
+    }
+    .screen05-line > img {
+        width: 150%;
+        left: 5.3em;
+    }
+    .screen05-text-cont {
+        left: 1.6em;
+        top: 18.5em;
+    }
+    .screen05-text-cont h1 {
+        margin-bottom: 0.4em;
+    }
+    .screen06 {
+        height: 457px;
+    }
+    .screen07-box > img:nth-of-type(1) {
+        width: 60%;
+    }
+    .screen07-box > img:nth-of-type(2) {
+        width: 86%;
+        left: -0.45em;
+    }
+    .screen07-box > img:nth-of-type(3) {
+        width: 59%;
+    }
+    .screen07-box > p {
+        font-size: 16px;
+    }
+}
+@media (max-width:767px){
+    .container {
+        width: 750px;
+    }
+}

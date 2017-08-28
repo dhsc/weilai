@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>KTV模板</title>
+<!-- bootstrap start -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- 若比IE9更老，则加载jQuery-1.10.1版本，否则加载jQuery-2.0.2版本 -->
+    <!--[if lt IE 9]>
+        <script src="js/jquery-1.10.1.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+        <script src="js/jquery-2.0.2.js" type="text/javascript"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src='js/bootstrap.min.js'></script>
+<!-- bootstrap end -->
+
+<!-- 自动补全css前缀 start -->
+    <!-- <script type="text/javascript" src='js/prefixfree.min.js'></script> -->
+<!-- 自动补全css前缀 end -->
+
+<!-- velocity动画 start -->
+    <script src="js/velocity.js"></script>
+    <!-- 使velocity动画支持jquery语法的插件 start-->
+    <script src="js/velocity.ui.js"></script>
+<!-- velocity动画 end -->
+
+<!-- 以下2个插件是用于在IE8支持HTML5元素和媒体查询的-->
+    <!-- 注意：Respond.js不支持file://方式访问 -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- end -->
+    <link rel="stylesheet" type="text/css" href="css/ktv-template.css">
+
+
+    <script src="js/ktv-template.js" type="text/javascript"></script>
+</head>
+<body>
+    <iframe class="header-iframe" src="header.html" frameborder="0" width="100%" height="340px"></iframe>
+    <section class="screen01 text-center">
+        <div class="container">
+            <div class="screen01-content center-block">
+                <div class="col-md-4 col-sm-4 col-xs-4 screen01-lt">
+                    <img src="img/ktv-template-screen01-logo.png" alt="">
+                    <img src="img/ktv-template-screen01-lt.png" alt="">
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 screen01-rt">
+                    <img src="img/ktv-template-screen01-rt-tp.png" alt="">
+                    <ul class="center-block list-unstyled list-inline">
+                        <li>机器<br />设置</li>
+                        <li>房间<br />预览</li>
+                        <li>扫码<br />订房</li>
+                        <li>边玩<br />边等</li>
+                    </ul>
+                    <p>要玩就要尽兴 不<em>HIGH</em>不归</p>
+                    <img src="img/ktv-template-screen01-rt-bt.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screen02" data-stellar-background-ratio="0.6"></section>
+    <section class="screen03">
+        <div class="container">
+            <div class="screen03-content center-block">
+                <img src="img/ktv-template-screen03-tp.png" alt="" />
+                <img src="img/ktv-template-screen03-ct.png" alt="" />
+                <img src="img/ktv-template-screen03-bt.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class="screen04" data-stellar-background-ratio="0.8"></section>
+    <section class="screen05 text-center">
+        <div class="container screen05-box">
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <div class="screen05-line">
+                    <img src="img/ktv-template-screen05-line.png" alt="">
+                </div>
+                <div class="screen05-text-cont">
+                    <h1>微信订房</h1>
+                    <p>在线预约无需排队 优先用房<br />咔嚓一下微信照片 免费打印<br />扫码游戏高手云集 high翻天<br />看得见的环境服务 乐享聚会</p>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7">
+                <img src="img/ktv-template-screen05-ct.png" alt="">
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                <img class="screen05-item" src="img/ktv-template-screen05-list01.png" alt="">
+                <img class="screen05-item" src="img/ktv-template-screen05-list02.png" alt="">
+                <img class="screen05-item" src="img/ktv-template-screen05-list03.png" alt="">
+                <img class="screen05-item" src="img/ktv-template-screen05-list04.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <section class="screen06" data-stellar-background-ratio="0.8"></section>
+    <section class="screen07 text-center">
+        <div class="container screen07-box">
+            <img src="img/ktv-template-screen07-tp.png" alt="">
+            <img class="screen07-item" src="img/ktv-template-screen07-ct.png" alt="">
+            <img src="img/ktv-template-screen07-bt.png" alt="">
+            <p class="text-center">科学的产品管理及订单处理系统，极大程度提高了工作效率，节省经营成本。</p>
+        </div>
+    </section>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/jquery.smoove.js"></script>
+    <script>
+        $.stellar({
+            horizontalScrolling: false,
+            verticalOffset: -95,
+        });
+        $('.screen05-item').smoove({
+            offset: '10%',
+            moveX: '200%'
+        });
+        $('.screen07-item').smoove({
+            offset: '10%',
+            moveY: '200px',
+            moveZ: '-500px',
+            rotateX: '90deg'
+        });
+    </script>
+</body>
+</html>
