@@ -174,16 +174,17 @@ nav > a > img{
     line-height: 1.5em;
 }
 .content-nav2 {
-    width: 228px;
-    width: 19em;
+    /* width: 228px;
+    width: 19em; */
     overflow: hidden;
+    text-align: center;
 }
 .content-nav2 > li {
-    float: left;
-    padding-left: 3px;
-    padding-left: 0.25em;
-    padding-right: 3px;
-    padding-right: 0.25em;
+    /* float: left; */
+    /* padding-left: 3px; */
+    /* padding-left: 0.25em; */
+    /* padding-right: 3px; */
+    /* padding-right: 0.25em; */
     margin-bottom: 99px;
     margin-bottom: 8.25em;
 }
