@@ -1,0 +1,22 @@
+html {
+    font-size: 12px;
+}
+body {
+    background-color: #01c5ff;
+}
+.img01 {
+    width: 10.333rem;
+    margin-top: 6rem;
+}
+h2 {
+    color: #fffb00;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2.166rem;
+    margin-bottom: 1.8rem;
+}
+p {
+    color: #fff;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+}

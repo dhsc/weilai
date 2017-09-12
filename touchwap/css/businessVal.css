@@ -1,0 +1,167 @@
+html {
+    font-size: 12px;
+}
+.path01 {
+    background-color: #63b9f2;
+}
+.path01-1 {
+    width: 24rem;
+    margin-top: 6.9rem;
+}
+.path01-list {
+    width: 23rem;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+.path01-list > li {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #fff;
+    background-color: #0b4ca6;
+    border-radius: 50%;
+    float: left;
+    padding-top: 0.9rem;
+}
+.path01-list > li + li {
+    margin-left: 1rem;
+}
+.path01-3 {
+    width: 23rem;
+    color: #fff;
+    font-size: 1.166rem;
+    margin-top: 2rem;
+}
+.path01-3 > div {
+    float: right;
+}
+.path01-3 > div:last-child {
+    border-right: 1px solid #fff;
+    padding-right: 1rem;
+}
+.path01-3 > div:first-child {
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+.path01-3 > div > i {
+    font-size: 2.7rem;
+}
+.path01-4 {
+    width: 23rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.path02 {
+    width: 23rem;
+    color: #175eac;
+    margin-top: 1.166rem;
+}
+.path02-1 {
+    padding-left: 1rem;
+}
+.path02-1 > i,.path02-1 > div {
+    float: left;
+}
+.path02-1 > i {
+    font-size: 5rem;
+    font-style: normal;
+    line-height: 4.2rem;
+}
+.path02-1 > div > h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.34rem;
+    font-weight: bold;
+}
+.path02-1 > div > p {
+    color: #345696;
+    font-size: 1.166rem;
+}
+.path02 > img {
+    width: 19rem;
+}
+.path02-2 {
+    width: 19rem;
+    margin-left: -1rem;
+}
+.path02-3 {
+    float: right;
+}
+.path03 {
+    color: #fff;
+    background-color: #57b6f2;
+    padding-top: 2.083rem;
+}
+.path03 > h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+}
+.path03 > p:nth-of-type(1) {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+.path03 > p:nth-of-type(2) {
+    font-size: 1.75rem;
+    padding-bottom: 2.666rem;
+}
+.path03-list {
+    width: 22.7rem;
+}
+.path03-list > li {
+    width: 22.7rem;
+    overflow: hidden;
+    position: relative;
+    padding-left: 3.4rem;
+}
+.path03-list div {
+    float: left;
+    position: absolute;
+    width: 2.166rem;
+    height: 2.166rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.7);
+    top: 50%;
+    margin-top: -2.083rem;
+    left: 0;
+}
+.path03-list p {
+    float: left;
+    width: 18.833rem;
+    padding: 0.666rem;
+    border: 1px dashed rgb(253, 253, 253);
+    background: #68bef1;
+    box-shadow: 0 0 0.25rem 0 #FDFBFB inset, 0 0 0.5rem 0 #FFFDFD;
+    margin-bottom: 2rem;
+    font-size: 1.166rem;
+}
+.path03-list div > i {
+    display: inline-block;
+    position: absolute;
+    width: 1.083rem;
+    height: 1.083rem;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-left: -0.541rem;
+    margin-top: -0.541rem;
+}
+.path04 > h2 {
+    font-size: 1.633rem;
+    color: #06996c;
+    line-height: 2.5rem;
+    margin-top: 0.416rem;
+}
+.path04 > p {
+    font-size: 1.166rem;
+    margin-bottom: 4.166rem;
+}
+.path04 > img {
+    width: 23.333rem;
+}
+footer > img {
+    width: 100%;
+    margin-top: 2.666rem;
+}

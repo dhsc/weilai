@@ -1,0 +1,169 @@
+body {
+    font-size: 12px;
+}
+.path01 {
+    background-color: #36CEff;
+    padding-top: 50px;
+    padding-top: 50px;
+    padding-top: 4.166em;
+    color: #fff;
+}
+.path01-1 {
+    overflow: hidden;
+    width: 19.5em;
+}
+.path01-1 > i {
+    float: left;
+    font-size: 8.5em;
+    font-style: normal;
+    color: #012d76;
+}
+.path01-1 > div {
+    float: left;
+    margin-left: 1.5em;
+}
+.path01-1 > div > h2 {
+    font-size: 1.866em;
+    font-weight: bold;
+    margin-bottom: 0.223em;
+    margin-top: 1.7em;
+}
+.path01-1 > div > h3 {
+    font-size: 1.633em;
+    margin-top: 0;
+}
+.path01-2 {
+    width: 24em;
+}
+.path01-2 > img{
+    width: 24em;
+}
+.path01-3 > h2 {
+    display: inline-block;
+    font-size: 1.983em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.1em;
+}
+.path01-3 > p {
+    font-size: 1.633em;
+}
+.path01-4 {
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    margin-bottom: 0;
+}
+.path01-4 li{
+    display: inline-block;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #0b4ca6;
+    border-radius: 50%;
+    line-height: 3.5em;
+    font-weight: bold;
+}
+.path02 > hgroup > h2 {
+    color: #008aff;
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.148em;
+}
+.path02 > hgroup > h2 > strong {
+    color: #0057e5;
+    font-size: 2.1em;
+}
+.path02 > hgroup > h3 {
+    display: inline-block;
+    color: #32ccfe;
+    font-size: 2.1em;
+    border-top: 2px solid #5e2f01;
+    margin-top: 0;
+    padding-top: 0.317em;
+    margin-bottom: 0;
+}
+.path02 > img {
+    width: 18.666em;
+    margin-top: 3.333em;
+    margin-bottom: 1.833em;
+}
+.path02-3 {
+    width: 25em;
+    display: inline-block;
+}
+.path02-3 > i {
+    float: left;
+    font-size: 4.666em;
+    color: #a6e7fe;
+    width: 1.295em;
+}
+.path02-3 > p {
+    float: left;
+    font-size: 1.166em;
+    width: 15.536em;
+}
+.path03 {
+    display: inline-block;
+    background-color: #dcf7ff;
+}
+.path03 > hgroup > h2 {
+    color: #f58833;
+}
+.path03 > hgroup > h2 > strong {
+    color: #DD5000;
+}
+.path03 > hgroup > h3 {
+    color: rgba(245, 137, 0, 0.79);
+}
+.path03-3 > i {
+    color: #a6e7fe;
+}
+.path04 > h2 {
+    color: #f58833;
+    font-weight: bold;
+    font-size: 3.5em;
+    margin-top: 0.476em;
+    margin-bottom: 0;
+}
+.path02 > img {
+    margin-top: 2.666em;
+    margin-bottom: 0;
+}
+.path04-3 {
+    width: 24.166em;
+    height: 18.416em;
+    background-color: #f58833;
+    margin-bottom: 2.5em;
+    padding-top: 0.85em;
+}
+.path04-4 > i {
+    color: rgba(245, 51, 184, 0.6);
+}
+.path04-3-list {
+    display: inline-block;
+    width: 19.833em;
+    height: 16.583em;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-top: 0.7em;
+}
+.path04-3-list > li {
+    font-size: 1.75em;
+    font-weight: bold;
+    float: left;
+    width: 1.3em;
+}
+.path04-3-list > li + li {
+    margin-left: 0.4em;
+}
+.path04-3-list > li:first-child {
+    margin-left: 1.2em;
+    margin-right: 0.5em;
+}
+.path04-5 {
+    margin-top: 3em;
+}
+.path04-5 > a {
+    font-size: 1.75em;
+    color: #f58833;
+}
