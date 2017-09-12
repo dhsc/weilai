@@ -1,7 +1,7 @@
 $(function(){
     var animateCurve = $('.animate-curve'),
         animateCurveHigh = (212/276)*animateCurve.width(),
-        initWidth = 0,
+        initWidth = 0;
     animateCurve.height(animateCurveHigh);
     animateCurve.width('0');
     animateCurve.animate({width: '95%'},2000);
