@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-xs-6 form-group1">
                     <select class="selects" id="province" name="province" onChange="getCity()">
-                        <option value="null" selected="selected" disabled="disabled">省份</option>
+                        <option value="null" selected="selected">省份</option>
                         <option value="直辖市">直辖市</option>
                         <option value="河北">河北</option>
                         <option value="山西">山西</option>
@@ -267,7 +267,14 @@
         var postData = $("#contactUsForm"); //.serialize();
         var msg = $("#province").val() + "_" + $("#city option:selected").text() +"#" + $("#messageTemp").val();
         $("#message").val(msg);
+
         alert('感谢您的留言!我们会及时答复您的!');
+        $("input").val('');
+        $("#messageTemp").val('');
+        $(".selects").css({color:'#989797'});
+        $(".selects > option").removeAttr('selected');
+        $(".selects > option:first-child").attr('selected','selected');
+
         /*$.ajax({
             url:postData.attr("action"),
             type: "post",
@@ -275,6 +282,11 @@
             dataType: "json",
             success: function(data, statusText, jqXHR){
                 alert('感谢您的留言!我们会及时答复您的!');
+                $("input").val('');
+                $("#messageTemp").val('');
+                $(".selects").css({color:'#989797'});
+                $(".selects > option").removeAttr('selected');
+                $(".selects > option:first-child").attr('selected','selected');
                 console.log(data);
             }
         });*/
