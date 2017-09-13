@@ -231,8 +231,8 @@ nav > a > img{
     height: 28px;
     height: 2.333em;
     color: #989797;
-    padding-left: 7px;
-    padding-left: 0.583em;
+    padding-left: 8px;
+    padding-left: 0.666em;
 }
 textarea {
     resize: none;

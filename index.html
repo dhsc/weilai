@@ -133,8 +133,8 @@
                     <form action="#" method="post" id="form01" name="form01">
                         <div class="row form-top">
                             <strong class="col-md-1">＊</strong>
-                            <input class="col-md-5" type="text" value="姓名" id="name" name="name" />
-                            <input class="col-md-5" type="text" value="电话" id="phone" name="phone" />
+                            <input class="col-md-5" type="text" placeholder="姓名" id="name" name="name" />
+                            <input class="col-md-5" type="text" placeholder="电话" id="phone" name="phone" />
                         </div>
                         <div class="row form-center">
                             <strong class="col-md-1">＊</strong>
@@ -170,13 +170,13 @@
                                   <option value="新疆">新疆</option>
                                   <option value="台湾">台湾</option>
                             </select>
-                            <select class="col-md-5 selects" id="city" name="city">
+                            <select class="col-md-5 selects" id="city" name="city" onChange="changeColor()">
                                 <option selected="selected" value="null">市</option>
                             </select>
                         </div>
                         <div class="row form-bottom">
                             <strong class="col-md-1">＊</strong>
-                            <textarea class="col-md-10" id="messageTemp" name="messageTemp">留言</textarea>
+                            <textarea class="col-md-10" id="messageTemp" name="messageTemp" placeholder="留言"></textarea>
                             <input type="hidden" class="form-control" rows="3" required="required" id="message" name="message"  placeholder="留言"/>
                             <div class="col-md-1 postData">
                                 <button type="button" id="subBtn" class="sub">发送</button>
@@ -268,16 +268,24 @@
            //如果都选值 sltCity[i+1]=new Option(provinceCity[i][1],provinceCity[i][1]);
                sltCity[i+1]=new Option(provinceCity[i][1],provinceCity[i][0]);
            }
+           //省份选中后，加亮select文字颜色
+           province.style.color = '#8C8C8C';
       }
 
+      function changeColor(){
+        $('#city').css('color','#8C8C8C');
+      }
 
+       var isEmpty = function(value) {
+            return (value == undefined || value == null || value == "") ? true : false;
+       };//值是否为空
        $("#subBtn").click(function(event){
           var postData = $("#form01"); //.serialize();
-          if($("#name").val()=='姓名'){
+          if(isEmpty($("#name").val())){
               alert('请输入姓名');
               return;
           }
-          if($("#phone").val()=='电话'){
+          if(isEmpty($("#phone").val())){
               alert('请输入电话号码');
               return;
           }else{
@@ -287,7 +295,7 @@
                  return;
               }
           }
-          if($("#messageTemp").val()=='留言'){
+          if(isEmpty($("#messageTemp").val())){
               alert('请输入留言内容');
               return;
           }
@@ -299,7 +307,7 @@
           alert('感谢您的留言!我们会及时答复您的!');
           $("input").val('');
           $("#messageTemp").val('');
-          $(".selects").css({color:'#989797'});
+          $(".selects").css({color:'#757575'});
           $(".selects > option").removeAttr('selected');
           $(".selects > option:first-child").attr('selected','selected');
           /*$.ajax({
@@ -315,7 +323,7 @@
                   alert('感谢您的留言!我们会及时答复您的!');
                   $("input").val('');
                   $("#messageTemp").val('');
-                  $(".selects").css({color:'#989797'});
+                  $(".selects").css({color:'#757575'});
                   $(".selects > option").removeAttr('selected');
                   $(".selects > option:first-child").attr('selected','selected');
               }

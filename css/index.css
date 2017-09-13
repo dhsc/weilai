@@ -253,6 +253,10 @@ input,select,textarea {
     font-weight: bold;
     outline: none;
 }
+.selects {
+    color: #757575;
+    padding-left: 11px;
+}
 textarea {
     height: 77px;
     resize: none;
