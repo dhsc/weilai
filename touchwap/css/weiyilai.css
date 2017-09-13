@@ -233,8 +233,11 @@ html {
             transform: scale(0.9);
 }
 .path04 > ul {
-    width: 17.99rem;
-    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 0.208rem;
+}
+.path04 > ul:nth-of-type(4) {
+    margin-left: -0.3rem;
 }
 .path04 > ul > li {
     float: left;
