@@ -65,13 +65,11 @@ html {
     padding-top: 2.5rem;
 }
 .path02-5 {
-    width: 12.166rem;
-    overflow: hidden;
+    display: inline-block;
     margin-bottom: 3.5rem;
 }
 .path02-5 > li {
-    width: 50%;
-    float: left;
+    display: inline-block;
     color: #000;
 }
 .path02-5 > li:first-child {
