@@ -2,7 +2,7 @@ footer {
     position: relative;
     width: 100%;
     height: 259px;
-    background: url('../img/footer-bg.png') center center no-repeat;
+    background: url('../img/footer-bg.jpg') center center no-repeat;
     background-size: cover;
     border-top: 1px solid #292929;
 }

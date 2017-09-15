@@ -42,7 +42,7 @@
         width: 100%;
         height: 570px;
         margin-top: 160px;
-        background: url(../img/realty-template-screen02-bg.png) center center no-repeat;
+        background: url(../img/realty-template-screen02-bg.jpg) center center no-repeat;
         background-size: cover;
     }
 /* screen02 end */
@@ -65,7 +65,7 @@
     .screen04 {
         width: 100%;
         height: 450px;
-        background: url(../img/realty-template-screen04-bg.png) center center no-repeat;
+        background: url(../img/realty-template-screen04-bg.jpg) center center no-repeat;
         background-size: cover;
     }
 /* screen04 end */
@@ -86,7 +86,7 @@
     .screen06 {
         width: 100%;
         height: 623px;
-        background: url(../img/realty-template-screen06-bg.png) center center no-repeat;
+        background: url(../img/realty-template-screen06-bg.jpg) center center no-repeat;
         background-size: cover;
     }
 /* screen06 end */

@@ -15,7 +15,7 @@
     margin-top: 39px;
     width: 100%;
     height: 604px;
-    background: url(../img/bsiVal-screen01-bg.png) center center no-repeat;
+    background: url(../img/bsiVal-screen01-bg.jpg) center center no-repeat;
 }
 .screen01-lt-png {
     padding-top: 32px;
@@ -238,7 +238,7 @@
     .screen05-center {
         height: 842px;
         padding-top: 145px;
-        background: url('../img/bsiVal-screen05-bg.png') center bottom no-repeat;
+        background: url('../img/bsiVal-screen05-bg.jpg') center bottom no-repeat;
     }
     .screen05 h1 {
         font-size: 30px;

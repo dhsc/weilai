@@ -137,22 +137,22 @@ html {
     margin-left: 0.5rem;
 }
 .path03-3-item01 {
-    background: url('../img/interaction-3.png') top left no-repeat;
+    background: url('../img/interaction-3.jpg') top left no-repeat;
 }
 .path03-3-item02 {
-    background: url('../img/interaction-4.png') top right no-repeat;
+    background: url('../img/interaction-4.jpg') top right no-repeat;
 }
 .path03-3-item03 {
-    background: url('../img/interaction-5.png') top left no-repeat;
+    background: url('../img/interaction-5.jpg') top left no-repeat;
 }
 .path03-3-item04 {
-    background: url('../img/interaction-6.png') top right no-repeat;
+    background: url('../img/interaction-6.jpg') top right no-repeat;
 }
 .path03-3-item05 {
-    background: url('../img/interaction-7.png') top left no-repeat;
+    background: url('../img/interaction-7.jpg') top left no-repeat;
 }
 .path03-3-item06 {
-    background: url('../img/interaction-8.png') top right no-repeat;
+    background: url('../img/interaction-8.jpg') top right no-repeat;
 }
 .path03-4 > p:first-child {
     margin-top: 0;
