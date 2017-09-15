@@ -1,1 +1,471 @@
-*{font-family:"微软雅黑"}.header-iframe{position:fixed;top:0;left:0;z-index:999}.screen01{margin-top:39px;background:url(../img/distriMall-screen01-bg.png);height:475px;position:relative}.screen01 .container{position:relative;z-index:1}.screen01-bt-bg{width:100%;height:129px;position:absolute;z-index:0;bottom:-129px;background:url(../img/distriMall-screen01-bg-bt.png)}.screen02{width:100%;background-color:#ff5e5b;position:relative;z-index:1;margin-top:102px}.list-box{display:table;table-layout:fixed;width:88%}.screen02 ul>li{height:251px;color:#0acaad;display:table-cell;vertical-align:middle;overflow:hidden}.screen02 ul>li:first-child,.screen02 ul>li:last-child{background:url(../img/distriMall-screen02-cont-bg.png)}.screen02 ul>li:nth-child(2){background:#e7e7e7;color:#ff5e5b}.screen02 ul>li h1{font-size:2.8em;vertical-align:middle}.screen02 ul>li h2{font-size:1.7em;vertical-align:middle}.screen02 ul>li:nth-child(2) h2{font-size:2.5em}.screen02 hgroup{width:21%;font-size:2.8em;border-left:4px solid #fff;border-right:4px solid #fff;color:#fff;margin-bottom:20px}.screen02 hgroup h1{margin-bottom:0;padding-left:1%;padding-right:1%;line-height:1}.screen02 hgroup h2{margin-top:0;font-size:.5em;line-height:1.3}.screen02-footer{font-size:18px;color:#fff;background:#6c2827;line-height:43px;margin-bottom:0}.screen03{background:#e7e7e7;padding-bottom:20px}.screen03 h1{font-size:4em;font-weight:700}.screen03 h1>b:nth-child(1){color:#ff5e5b}.screen03 h1>b:nth-child(2){color:#17a38d}.screen03 h2{color:#fff;margin-top:0}.screen03 h2>span:nth-child(1){display:inline-block;padding:10px 20px 5px;background:#17a38d}.screen03 h2>span:nth-child(2){display:inline-block;padding:10px 20px 5px;background:#ff5e5b}.screen03 ul{padding-top:20px;width:75%;margin-bottom:0}.screen03 li>span{display:inline-block;width:92px;height:92px;border-radius:50%;border:2px solid #ff5e5b;color:#ff5e5b;font-size:60px}.iconfont01,.iconfont02,.iconfont03{line-height:88px}.iconfont04{line-height:92px}.screen03 li>p:nth-of-type(1){padding-top:5px;color:#ff5e5b;font-weight:700;font-size:1.2em;margin-bottom:0}.screen03 hr{width:82%;border-top:1px dashed #000;margin-top:10px}.screen04>.container>h1{padding-top:10px;font-weight:700;color:#ff5e5b;font-size:3.7em;margin-bottom:0}.screen04>.container>h2{color:#18a38d;font-size:2.3em;margin-top:10px}.screen04>.container>ul{width:85%;padding-top:35px}.screen04 li>h3{color:#ff5e5b;font-weight:700}.screen04 li>p{font-size:.8em}.screen05{background:#e7e7e7;margin-top:20px;padding-top:1.2em;padding-bottom:3em}.screen05>.container>h1{font-weight:700;font-size:3.6em;color:#e75552}.screen05-tittle-box{width:90%;color:#fff;background:url(../img/distriMall-screen05-title-box.png) center center no-repeat;background-size:cover;margin-top:20px}.screen05-tittle-box li{padding-bottom:10px}.screen05-list-box{padding-top:35px;width:75%}.screen05-list-box>li+li{border-left:1px dashed #000}.screen05-list-box>li>h3{font-size:1.5em;font-weight:700}.screen05-list-box>li:nth-child(2n+1)>h3{color:#e75552}.screen05-list-box>li:nth-child(2n)>h3{color:#18a38d}.screen05 span{display:inline-block;font-size:2em;color:#fff;font-weight:700;border-radius:10px;background:#b73734;padding:.5em 5.5em;margin-top:1.3em}.screen06{padding-top:3em;padding-bottom:3em}.screen07-tittle-box>li:first-child>p{margin-bottom:0}.screen07-tittle-box>li:first-child>p:nth-of-type(2){line-height:1em;margin-bottom:2px}.screen08{padding-bottom:1em}.screen08 .center-block{width:78%;padding-top:4.6em}.screen08-lt-cr-box,.screen08-lt-tp-box{display:table}.screen08-lt-cr-box{margin-top:1.2em}.screen08-lt-cr,.screen08-lt-tp{width:80%;font-size:1.3em;padding:1.3em 2.18em;display:table-cell;vertical-align:middle}.screen08-lt-tp{background:url(../img/distriMall-screen08-lt-tp.png) no-repeat}.screen08-lt-cr{color:#fff;background:url(../img/distriMall-screen08-lt-bt.png) no-repeat;padding:1.3em 2.67em}.screen08-lt-bt-box,.screen09 h1{color:#18a38d;font-weight:700}.screen08-lt-bt-box>div{padding-left:2em}.screen08-lt-bt-box h3{font-weight:700;font-size:2em;margin-bottom:0}.screen09{background:#e7e7e7}.screen09 .container>div{width:65%}.screen09 h1{font-size:3.5em}.screen09 .container li{float:left;width:48px;word-break:break-all}.screen09 h2{width:100%;color:#fff;font-size:2.3em;background:#e55050}.screen09 .container li+li{margin-left:9%}.screen09 .container li h3{width:18px;font-weight:700;float:right;font-size:18px;margin-top:0}.screen09 .container li p{width:12px;float:right;font-size:12px;line-height:14px}.screen09 .container li p:nth-of-type(1){margin:0 2px}.screen09-footer{width:49%}.screen09-footer>h3:nth-of-type(1){font-size:2.5em;font-weight:700;margin-bottom:0}.screen09-footer>h3:nth-of-type(2){font-size:2em;font-weight:700;margin-top:0}.screen09-footer>h3>em{font-style:normal;font-size:1.3em;color:#e55050}@media (max-width:1200px){.screen01 .container>img{width:100%}.screen01-bt-bg{bottom:-67px;height:103px}.screen02{margin-top:64px;font-size:13px}.screen02 ul>li{height:200px}.screen02 hgroup{width:26%}.screen03,.screen04,.screen05{font-size:11px}.screen08{font-size:13px}.screen08-lt-cr,.screen08-lt-tp{background-size:contain;padding:.9em 2em}.screen08-rt{width:80%}.screen09{font-size:12px}.screen09 .container ul{margin-left:-7%}.screen09 .container li+li{margin-left:8%}.screen09-footer{width:52%}}@media (max-width:992px){.screen01 .container>img{width:100%}.screen01-bt-bg{bottom:49px;height:91px}.screen02{font-size:11px;margin-top:-50px}.screen02 ul>li{height:219px}.screen02 hgroup{width:33%}.screen03 .container>img,.screen04 li img{width:100%}.screen03{font-size:10px}.screen04,.screen05{font-size:11px}.screen05-tittle-box{width:102%}.screen08{font-size:10px}.screen08-lt-cr,.screen08-lt-tp{background-size:contain;padding:.9em 2.18em}.screen08-rt{width:100%}.screen09 .container li+li{margin-left:5%}.screen09-footer{width:67%}}@media (max-width:768px){.container{width:750px}}
+* {
+    font-family: "微软雅黑";
+}
+/* header start */
+.header-iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* header end */
+/* screen01 start */
+.screen01 {
+    margin-top: 39px;
+    background: url('../img/distriMall-screen01-bg.png');
+    height: 475px;
+    position: relative;
+}
+.screen01 .container {
+    position: relative;
+    z-index: 1;
+}
+.screen01-bt-bg {
+    width: 100%;
+    height: 129px;
+    position: absolute;
+    z-index: 0;
+    bottom: -129px;
+    background: url('../img/distriMall-screen01-bg-bt.png');
+}
+/* screen01 end */
+/* screen02 start */
+    .screen02 {
+        width: 100%;
+        background-color: #ff5e5b;
+        position: relative;
+        z-index: 1;
+        margin-top: 102px;
+    }
+    .list-box {
+        display: table;
+        table-layout: fixed;
+        width: 88%;
+    }
+    .screen02 ul > li {
+        height: 251px;
+        color: #0acaad;
+        display: table-cell;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+    .screen02 ul > li:first-child,.screen02 ul > li:last-child {
+        background: url('../img/distriMall-screen02-cont-bg.png');
+    }
+    .screen02 ul > li:nth-child(2) {
+        background: #e7e7e7;
+        color: #ff5e5b;
+    }
+
+    .screen02 ul > li h1 {
+        font-size: 2.8em;
+        vertical-align: middle;
+    }
+    .screen02 ul > li h2 {
+        font-size: 1.7em;
+        vertical-align: middle;
+    }
+    .screen02 ul > li:nth-child(2) h2 {
+        font-size: 2.5em;
+    }
+    .screen02 hgroup {
+        width: 21%;
+        font-size: 2.8em;
+        border-left: 4px solid #fff;
+        border-right: 4px solid #fff;
+        color: #fff;
+        margin-bottom: 20px;
+
+    }
+    .screen02 hgroup h1 {
+        margin-bottom: 0;
+        padding-left: 1%;
+        padding-right: 1%;
+        line-height: 1;
+    }
+    .screen02 hgroup h2 {
+        margin-top: 0;
+        font-size: 0.5em;
+        line-height: 1.3;
+    }
+    .screen02-footer {
+        font-size: 18px;
+        color: #fff;
+        background: #6c2827;
+        line-height: 43px;
+        margin-bottom: 0;
+    }
+/* screen02 end */
+/* screen03 start */
+    .screen03 {
+        background: #e7e7e7;
+        padding-bottom: 20px;
+    }
+    .screen03 h1 {
+        font-size: 4em;
+        font-weight: bold;
+
+    }
+    .screen03 h1 > b:nth-child(1) {
+        color: #ff5e5b;
+    }
+    .screen03 h1 > b:nth-child(2) {
+        color: #17a38d;
+    }
+    .screen03 h2 {
+        color: #fff;
+        margin-top: 0px;
+    }
+    .screen03 h2 > span:nth-child(1) {
+        display: inline-block;
+        padding: 10px 20px 5px 20px;
+        background: #17a38d;
+    }
+    .screen03 h2 > span:nth-child(2) {
+        display: inline-block;
+        padding: 10px 20px 5px 20px;
+        background: #ff5e5b;
+    }
+    .screen03 ul {
+        padding-top: 20px;
+        width: 75%;
+        margin-bottom: 0;
+    }
+    .screen03 li > span {
+        display: inline-block;
+        width: 92px;
+        height: 92px;
+        border-radius: 50%;
+        border: 2px solid #ff5e5b;
+        color: #ff5e5b;
+        font-size: 60px;
+    }
+    .iconfont01 {
+        line-height: 88px;
+    }
+    .iconfont02 {
+        line-height: 88px;
+    }
+    .iconfont03 {
+        line-height: 88px;
+    }
+    .iconfont04 {
+        line-height: 92px;
+    }
+    .screen03 li > p:nth-of-type(1) {
+        padding-top: 5px;
+        color: #ff5e5b;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+    .screen03 hr {
+        width: 82%;
+        border-top: 1px dashed #000;
+        margin-top: 10px;
+    }
+/* screen03 end */
+/* screen04 start */
+    .screen04 > .container > h1 {
+        padding-top: 10px;
+        font-weight: bold;
+        color: #ff5e5b;
+        font-size: 3.7em;
+        margin-bottom: 0;
+    }
+    .screen04 > .container > h2 {
+        color: #18a38d;
+        font-size: 2.3em;
+        margin-top: 10px;
+    }
+    .screen04 > .container > ul {
+        width: 85%;
+        padding-top: 35px;
+    }
+    .screen04 li > h3 {
+        color: #ff5e5b;
+        font-weight: bold;
+    }
+    .screen04 li > p {
+        font-size: 0.8em;
+    }
+/* screen04 end */
+/* screen05 start */
+    .screen05 {
+        background: #e7e7e7;
+        margin-top: 20px;
+        padding-top: 1.2em;
+        padding-bottom: 3em;
+    }
+    .screen05 > .container > h1 {
+        font-weight: bold;
+        font-size: 3.6em;
+        color: #e75552;
+    }
+    .screen05-tittle-box {
+        width: 90%;
+        color: #fff;
+        background: url(../img/distriMall-screen05-title-box.png) center center no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+    }
+    .screen05-tittle-box li {
+        padding-bottom: 10px;
+    }
+    .screen05-list-box {
+        padding-top: 35px;
+        width: 75%;
+    }
+    .screen05-list-box > li+li {
+        border-left: 1px dashed #000;
+    }
+    .screen05-list-box > li > h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .screen05-list-box > li:nth-child(2n+1) > h3 {
+        color: #e75552;
+    }
+    .screen05-list-box > li:nth-child(2n) > h3 {
+        color: #18a38d;
+    }
+    .screen05 span {
+        display: inline-block;
+        font-size: 2em;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 10px;
+        background: #b73734;
+        padding: 0.5em 5.5em;
+        margin-top: 1.3em;
+    }
+/* screen05 end */
+/* screen06 start */
+    .screen06 {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+/* screen06 end */
+/* screen07 start */
+    .screen07-tittle-box > li:first-child > p {
+        margin-bottom: 0;
+    }
+    .screen07-tittle-box > li:first-child > p:nth-of-type(2) {
+        line-height: 1em;
+        margin-bottom: 2px;
+    }
+/* screen07 end */
+/* screen08 start */
+    .screen08 {
+        padding-bottom: 1em;
+    }
+    .screen08 .center-block {
+        width: 78%;
+        padding-top: 4.6em;
+    }
+    .screen08-lt-tp-box,.screen08-lt-cr-box {
+        display: table;
+    }
+    .screen08-lt-cr-box {
+        margin-top: 1.2em;
+    }
+    .screen08-lt-tp,.screen08-lt-cr {
+        width: 80%;
+        font-size: 1.3em;
+        padding: 1.3em 2.18em;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .screen08-lt-tp {
+        background: url(../img/distriMall-screen08-lt-tp.png) no-repeat;
+    }
+    .screen08-lt-cr {
+        color: #fff;
+        background: url(../img/distriMall-screen08-lt-bt.png) no-repeat;
+        padding: 1.3em 2.67em;
+    }
+    .screen08-lt-bt-box {
+        color: #18a38d;
+        font-weight: bold;
+    }
+    .screen08-lt-bt-box > div {
+        padding-left: 2em;
+    }
+    .screen08-lt-bt-box h3 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    .screen08-lt-bt-box p {
+
+    }
+/* screen08 end */
+/* screen09 start */
+    .screen09 {
+        background: #e7e7e7;
+    }
+    .screen09 .container > div {
+        width: 65%;
+    }
+    .screen09 h1 {
+        font-size: 3.5em;
+        font-weight: bold;
+        color: #18a38d;
+    }
+    .screen09 .container li {
+        float: left;
+        width: 48px;
+        word-break: break-all;
+    }
+    .screen09 h2 {
+        width: 100%;
+        color: #fff;
+        font-size: 2.3em;
+        background: #e55050;
+    }
+    .screen09 .container li + li {
+        margin-left: 9%;
+    }
+    .screen09 .container li h3 {
+        width: 18px;
+        font-weight: bold;
+        float: right;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .screen09 .container li p {
+        width: 12px;
+        float: right;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .screen09 .container li p:nth-of-type(1) {
+        margin: 0 2px;
+    }
+
+    .screen09-footer {
+        width: 49%;
+    }
+    .screen09-footer > h3:nth-of-type(1) {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .screen09-footer > h3:nth-of-type(2) {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    .screen09-footer > h3 > em {
+        font-style: normal;
+        font-size: 1.3em;
+        color: #e55050;
+    }
+/* screen09 end */
+@media (max-width:1200px){
+    .screen01 .container > img {
+        width: 100%;
+    }
+    .screen01-bt-bg {
+        bottom: -67px;
+        height: 103px;
+    }
+    .screen02 {
+        margin-top: 64px;
+        font-size: 13px;
+    }
+    .screen02 ul > li {
+        height: 200px;
+    }
+    .screen02 hgroup {
+        width: 33%;
+    }
+    .screen02 hgroup {
+        width: 26%;
+    }
+    .screen03,.screen04,.screen05 {
+        font-size: 11px;
+    }
+    .screen08 {
+        font-size: 13px;
+    }
+    .screen08-lt-tp,.screen08-lt-cr {
+        background-size: contain;
+        padding: 0.9em 2em;
+    }
+    .screen08-rt {
+        width: 80%;
+    }
+    .screen09 {
+        font-size: 12px;
+    }
+    .screen09 .container ul {
+        margin-left: -7%;
+    }
+    .screen09 .container li + li {
+        margin-left: 8%;
+    }
+    .screen09-footer {
+        width: 52%;
+    }
+}
+@media (max-width:992px){
+    .screen01 .container > img {
+        width: 100%;
+    }
+    .screen01-bt-bg {
+        bottom: 49px;
+        height: 91px;
+    }
+    .screen02 {
+        font-size: 11px;
+        margin-top: -50px;
+    }
+    .screen02 ul > li {
+        height: 219px;
+    }
+    .screen02 hgroup {
+        width: 33%;
+    }
+    .screen03 {
+        font-size: 10px;
+    }
+    .screen03 .container > img {
+        width: 100%;
+    }
+    .screen04 {
+        font-size: 11px;
+    }
+    .screen04 li img {
+        width: 100%;
+    }
+    .screen05 {
+        font-size: 11px;
+    }
+    .screen05-tittle-box {
+        width: 102%;
+    }
+    .screen08 {
+        font-size: 10px;
+
+    }
+    .screen08-lt-tp,.screen08-lt-cr {
+        background-size: contain;
+        padding: 0.9em 2.18em
+    }
+    .screen08-rt {
+        width: 100%;
+    }
+    .screen09 .container li + li {
+        margin-left: 5%;
+    }
+    .screen09-footer {
+        width: 67%;
+    }
+}
+@media (max-width:768px){
+   .container {
+    width: 750px;
+   }
+}

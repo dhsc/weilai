@@ -1,1 +1,75 @@
-@media screen and (max-width:991px){.arrow-left>img,.arrow-right>img{width:17px}.screen02{height:550px}.screen03{height:595px;margin-top:-130px}.screen04{height:438px}.screen04-left>.screen04-phone-show{margin-top:-40px}.screen04-right>h1{font-size:30px}.screen04-right>h1:first-child{margin-top:60px}.screen04-right>p{font-size:15px}.cooperative-box-in{width:648px}.contact-left{width:60%;float:left}.contact-left strong,.postData{width:10%;float:left}.contact-left input,.contact-left select{width:40%;float:left}.contact-left textarea{width:80%;float:left}.contact-right{width:40%;float:left}.contact-right img{width:175px;margin-top:69px;margin-right:-55px}.contact-right h3{font-size:18px;margin-right:-44px}.form-bottom,.form-center{margin-top:0}}
+@media screen and (max-width:991px){
+
+    /* carousel start */
+    .arrow-left > img,.arrow-right > img {
+        width: 17px;
+    }
+    /* carousel end */
+    /* screen02 start*/
+    .screen02 {
+        height: 550px;
+    }
+    /* screen02 end*/
+    /* screen03 start */
+    .screen03 {
+        height: 595px;
+        margin-top: -130px;
+    }
+    /* screen03 end */
+    /* screen04 start */
+    .screen04 {
+        height: 438px;
+    }
+   .screen04-left > .screen04-phone-show {
+        margin-top: -40px;
+   }
+   .screen04-right > h1 {
+        font-size: 30px;
+   }
+   .screen04-right > h1:first-child {
+        margin-top: 60px;
+    }
+    .screen04-right > p {
+        font-size: 15px;
+    }
+    /* screen04 end */
+    /* footer start */
+    .cooperative-box-in {
+        width: 648px;
+    }
+    .contact-left {
+        width: 60%;
+        float: left;
+    }
+    .contact-left strong, .postData {
+        width: 10%;
+        float: left;
+    }
+    .contact-left input, .contact-left select {
+        width: 40%;
+        float: left;
+    }
+    .contact-left textarea {
+        width: 80%;
+        float: left;
+    }
+    .contact-right {
+        width: 40%;
+        float: left;
+    }
+    .contact-right h3 {
+        font-size: 18px;
+    }
+    .contact-right img {
+        width: 175px;
+        margin-top: 69px;
+        margin-right: -55px;
+    }
+    .contact-right h3 {
+        margin-right: -44px;
+    }
+    .form-bottom, .form-center {
+        margin-top: 0;
+    }
+    /* footer end */
+}

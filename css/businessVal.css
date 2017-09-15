@@ -1,1 +1,620 @@
-*{font-family:"微软雅黑"}.header-iframe{position:fixed;top:0;left:0;z-index:999}.screen01{margin-top:39px;width:100%;height:604px;background:url(../img/bsiVal-screen01-bg.jpg) center center no-repeat}.screen01-lt-png{padding-top:32px}.screen01-rt-top-png{margin-top:110px}.screen01-rt-bottom-png{margin-top:37px;margin-left:182px}.screen02{padding-top:121px}.screen02 hgroup>h1{display:inline-block;padding:0 180px;background:#e7e7e7;font-size:50px;font-weight:700;color:#000}.screen02 hgroup>h2{font-size:20px;margin-top:0;margin-bottom:100px}.rotaryCarousel{overflow:hidden;cursor:pointer}.rotaryCarousel span{padding-top:180px}.rotaryCarousel span a{font-size:40px;color:#000}.rotaryCarousel h2,.rotaryCarousel p{font-size:12.6px;transition:all .4s linear}.rotaryCarousel span a:focus,.rotaryCarousel span a:hover{text-decoration:none}.rotaryCarousel>ul>li{width:276.6px;height:318.6px;position:relative;float:left;z-index:0;background-color:#fff}.rotaryCarousel>ul>li>div{width:80%;box-shadow:3px 10px 10px 0 #e6e6e6;position:relative;top:25%;opacity:.5;transition:all .4s linear}.rotaryCarousel img{width:168.8px;height:116.81px;transition:all .4s linear}.rotaryCarousel h2{font-weight:700}.rotaryCarousel i{background-color:#e6e6e6;display:block;font-size:29px;border-bottom:20px solid #fff;transition:all .4s linear}.rotaryCarousel>ul{height:461px}.rotaryCarousel>ul>li.rotaryCarousel-left{position:absolute;left:60px;transition:all .4s linear;z-index:2}.rotaryCarousel>ul>li.rotaryCarousel-current{width:366px;height:461px;left:270px;z-index:3;transition:all .4s linear}.rotaryCarousel>ul>li.rotaryCarousel-right{position:absolute;left:655px;transition:all .4s linear;z-index:1}.screen03-cont>div>img,.screen04 img,.screen05-cont>div>div,.screen05-right,.title-box{position:relative}.rotaryCarousel>ul>li.rotaryCarousel-current div{width:100%;opacity:1;top:0;transition:all .4s linear}.rotaryCarousel .rotaryCarousel-current img{width:328px;height:228px;transition:all .4s linear}.screen04,.screen05{width:100%}.rotaryCarousel .rotaryCarousel-current h2{font-size:21px;font-weight:700;transition:all .4s linear}.rotaryCarousel .rotaryCarousel-current p{font-size:21px;transition:all .4s linear}.screen03{background-color:#f3f3f3;margin-top:167px}.title-box{top:-96px}.screen03 .title-line{padding-top:65px;padding-left:0;padding-right:0}.screen03 .title-line hr{border-top:10px ridge #fff}.hgroup-box,.title-arrow,.title-item{background-color:#1a5fad;color:#fff;text-align:center}.hgroup-box{padding-top:20px;padding-bottom:21px}.hgroup-box h1{font-size:58px;font-weight:700}.hgroup-box h2{font-size:29px}.title-arrow i,.title-item i{font-size:130px;font-style:normal;font-weight:700}.screen03-cont{margin-top:210px;height:504px;background:url(../img/bsiVal-screen03-phoneShow.png) center bottom no-repeat}.screen03-cont>div:first-child>img{top:0;left:70px}.screen03-cont>div:nth-child(2)>img{top:280px;left:100px}.screen03-cont>div:last-child>img{top:0;left:-37px}.screen04{height:582px;background:url(../img/bsiVal-screen04-bg.png) center center;padding-top:101px}.screen04-dashDesc-ltTp{top:50px}.screen04-dashDesc-ltBt{top:80px}.screen04-dashDesc-rtBt,.screen04-dashDesc-rtCt,.screen04-dashDesc-rtTp{left:50px}.screen04-dashDesc-rtTp{top:30px}.screen04-dashDesc-rtCt{top:100px}.screen04-dashDesc-rtBt{top:150px}.screen05-center{height:842px;padding-top:145px;background:url(../img/bsiVal-screen05-bg.jpg) center bottom no-repeat}.screen05 h1{font-size:30px}.screen05 p{font-size:18px;line-height:24px}.screen05-title h1{font-size:36px;color:#000;font-weight:700}.screen05-title h2{font-size:21px;color:#000;line-height:13px}.shop-after{left:65px}.logistics{top:30px;left:-68px}.operate{top:110px;left:5px}.screen05-title{top:80px;left:-20px}.technology{top:160px;left:-100px}.shopping{top:165px;left:-60px}.screen05-right{font-size:19px;color:#fff;top:170px;left:-80px}@media (max-width:1199px){.screen01{height:468px}.screen01-lt-png{width:113%;height:auto}.screen01-rt-top-png{margin-top:20%;width:98%}.screen01-rt-bottom-png{width:59%;margin-top:37px;margin-left:32%}.screen02{padding-top:2%}.screen02 hgroup>h1{font-size:3em}.screen02 hgroup>h2{font-size:1.3em;margin-bottom:6%}.rotaryCarousel>ul{height:440px}.rotaryCarousel>ul>li{width:30%;height:318.6px}.rotaryCarousel>ul>li>div{width:86%}.rotaryCarousel img{width:86%;height:10%}.rotaryCarousel h2{font-size:1em}.rotaryCarousel p{font-size:1px}.rotaryCarousel i{font-size:1.5em}.rotaryCarousel>ul>li.rotaryCarousel-left{left:50px}.rotaryCarousel>ul>li.rotaryCarousel-current{width:40%;height:440px;left:232px}.rotaryCarousel>ul>li.rotaryCarousel-right{left:545px}.rotaryCarousel .rotaryCarousel-current img{width:98%}.rotaryCarousel .rotaryCarousel-current h2,.rotaryCarousel .rotaryCarousel-current p{font-size:1.3em}.screen03{background-color:#f3f3f3;margin-top:130px}.hgroup-box h1{font-size:3.25em}.hgroup-box h2{font-size:1.6em}.title-arrow i,.title-item i{font-size:8.3em}.screen03-cont{margin-top:130px;height:504px;background:url(../img/bsiVal-screen03-phoneShow.png) center bottom no-repeat;background-size:40%}.screen03-cont>div:first-child>img,.screen03-cont>div:last-child>img,.screen03-cont>div:nth-child(2)>img{width:70%}.screen04{height:482px}.screen04-dashDesc-ltTp{top:39px;width:100%}.screen04-dashDesc-ltBt{top:62px;width:100%}.screen04-cener{width:100%}.screen04-dashDesc-rtTp{width:100%;left:-7px;top:25px}.screen04-dashDesc-rtCt{width:100%;left:-7px;top:67px}.screen04-dashDesc-rtBt{width:100%;top:103px;left:-7px}.screen05 .screen05-center{font-size:12px;height:780px;background-size:100%;padding-top:160px}.screen05 h1{font-size:2em}.screen05 p{font-size:1.2em;line-height:1.3em}.screen05-title h1{font-size:2.2em}.screen05-title h2{font-size:1.3em;line-height:.4em}.shop-after{top:10px;left:6%}.logistics{top:40px;left:-8%}.operate{top:115px;left:-3%}.screen05-title{top:85px;left:-4%}.technology{top:160px;left:-11%}.shopping{top:165px;left:-8%}.screen05-right{font-size:1.1em;color:#fff;top:155px;left:-4.5%}}@media (max-width:992px){.screen01{height:360px}.screen02{font-size:9px}.rotaryCarousel span{padding-top:140px}.rotaryCarousel>ul{height:341px}.rotaryCarousel>ul>li{width:36%;height:318.6px;margin-left:-6%}.rotaryCarousel>ul>li div{width:100%;top:13%}.rotaryCarousel img{width:80%;height:10%}.rotaryCarousel>ul>li.rotaryCarousel-left{left:70px}.rotaryCarousel>ul>li.rotaryCarousel-current{width:40%;height:341px;left:210px}.rotaryCarousel .rotaryCarousel-current img{height:180px}.rotaryCarousel>ul>li.rotaryCarousel-right{left:400px}.screen03{font-size:8px;margin-top:90px}.title-box{top:-50px}.screen03 .title-line{padding-top:20px}.hgroup-box{padding-top:3px;padding-bottom:9px}.hgroup-box h2{margin-top:5px}.title-item{padding-right:0}.title-arrow{padding-left:0}.screen03-cont{margin-top:90px;height:383px;background:url(../img/bsiVal-screen03-phoneShow.png) center bottom no-repeat;background-size:40%}.screen03-cont>div:first-child>img{width:70%}.screen03-cont>div:nth-child(2)>img{top:253px;width:70%}.screen03-cont>div:last-child>img{left:-48px;top:39px;width:70%}.screen04{height:432px}.screen05 .screen05-center{height:606px;padding-top:115px;font-size:10px}.screen05 h1{margin-bottom:5px}.screen05-title h1{font-size:2.2em}.screen05-title h2{font-size:1.3em;line-height:.05em}.logistics{left:-7%}.operate{top:85px}.screen05-title{top:65px}.shopping,.technology{top:115px}.screen05-right{top:125px}}@media (max-width:768px){.container{width:750px}}
+* {
+    font-family: "微软雅黑";
+}
+/* header start */
+.header-iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* header end */
+/* screen01 start */
+.screen01 {
+    margin-top: 39px;
+    width: 100%;
+    height: 604px;
+    background: url(../img/bsiVal-screen01-bg.jpg) center center no-repeat;
+}
+.screen01-lt-png {
+    padding-top: 32px;
+}
+.screen01-rt-top-png {
+    margin-top: 110px;
+}
+.screen01-rt-bottom-png {
+    margin-top: 37px;
+    margin-left: 182px;
+}
+/* screen01 end */
+/* screen02 start */
+.screen02 {
+    padding-top: 121px;
+}
+.screen02 hgroup > h1 {
+    display: inline-block;
+    padding: 0 180px;
+    background: #e7e7e7;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+.screen02 hgroup > h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.rotaryCarousel {
+    overflow: hidden;
+    cursor: pointer;
+}
+.rotaryCarousel span {
+    padding-top: 180px;
+}
+.rotaryCarousel span a{
+    font-size: 40px;
+    color: #000;
+}
+.rotaryCarousel span a:hover,.rotaryCarousel span a:focus {
+    text-decoration: none;
+}
+
+.rotaryCarousel > ul > li{
+    width: 276.6px;
+    height: 318.6px;
+    position: relative;
+    float: left;
+    z-index: 0;
+    background-color: #fff;
+}
+.rotaryCarousel > ul > li > div{
+    width: 80%;
+    box-shadow: 3px 10px 10px 0 rgb(230, 230, 230);
+    position: relative;
+    top: 25%;
+    opacity: 0.5;
+    transition: all 0.4s linear;
+}
+
+.rotaryCarousel img {
+    width: 168.8px;
+    height: 116.81px;
+    transition: all 0.4s linear;
+}
+
+.rotaryCarousel h2 {
+    font-size: 12.6px;
+    font-weight: bold;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel p {
+    font-size: 12.6px;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel i {
+    background-color: rgb(230, 230, 230);
+    display: block;
+    font-size: 29px;
+    border-bottom: 20px solid #fff;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel > ul {
+    height: 461px;
+}
+.rotaryCarousel > ul > li.rotaryCarousel-left {
+    position: absolute;
+    left: 60px;
+    transition: all 0.4s linear;
+    z-index: 2;
+}
+.rotaryCarousel > ul > li.rotaryCarousel-current{
+    width: 366px;
+    height: 461px;
+    left: 270px;
+    z-index: 3;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel > ul > li.rotaryCarousel-right {
+    position: absolute;
+    left: 655px;
+    transition: all 0.4s linear;
+    z-index: 1;
+}
+.rotaryCarousel > ul > li.rotaryCarousel-current div{
+    width: 100%;
+    opacity: 1;
+    top: 0px;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel .rotaryCarousel-current img {
+    width: 328px;
+    height: 228px;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel .rotaryCarousel-current h2 {
+    font-size: 21px;
+    font-weight: bold;
+    transition: all 0.4s linear;
+}
+.rotaryCarousel .rotaryCarousel-current p {
+    font-size: 21px;
+    transition: all 0.4s linear;
+}
+/* screen02 end */
+/* screen03 start */
+.screen03 {
+    background-color: #f3f3f3;
+    margin-top: 167px;
+}
+.title-box {
+    position: relative;
+    top: -96px;
+}
+.screen03 .title-line {
+    padding-top: 65px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.screen03 .title-line hr {
+    border-top: 10px ridge #fff;
+}
+.hgroup-box,.title-item,.title-arrow {
+    background-color: #1a5fad;
+    color: #fff;
+    text-align: center;
+}
+.hgroup-box {
+    padding-top: 20px;
+    padding-bottom: 21px;
+}
+.hgroup-box h1 {
+    font-size: 58px;
+    font-weight: bold;
+}
+.hgroup-box h2 {
+    font-size: 29px;
+}
+.title-item i,.title-arrow i {
+    font-size: 130px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.screen03-cont {
+    margin-top: 210px;
+    height: 504px;
+    background: url(../img/bsiVal-screen03-phoneShow.png) center bottom no-repeat;
+}
+.screen03-cont > div > img {
+    position: relative;
+}
+.screen03-cont > div:first-child > img {
+    top: 0px;
+    left: 70px;
+}
+.screen03-cont > div:nth-child(2) > img {
+    top: 280px;
+    left: 100px;
+}
+.screen03-cont > div:last-child > img {
+    top: 0px;
+    left: -37px;
+}
+/* screen03 end */
+/* screen04 start */
+    .screen04 {
+        width: 100%;
+        height: 582px;
+        background: url('../img/bsiVal-screen04-bg.png') center center;
+        padding-top: 101px;
+    }
+    .screen04 img {
+        position: relative;
+    }
+    .screen04-dashDesc-ltTp {
+        top: 50px;
+    }
+    .screen04-dashDesc-ltBt {
+        top: 80px;
+    }
+    .screen04-dashDesc-rtTp, .screen04-dashDesc-rtCt, .screen04-dashDesc-rtBt {
+        left: 50px;
+    }
+    .screen04-dashDesc-rtTp {
+        top: 30px;
+    }
+    .screen04-dashDesc-rtCt {
+        top: 100px;
+    }
+    .screen04-dashDesc-rtBt {
+        top: 150px;
+    }
+/* screen04 end */
+/* screen05 start */
+    .screen05 {
+        width: 100%;
+    }
+    .screen05-center {
+        height: 842px;
+        padding-top: 145px;
+        background: url('../img/bsiVal-screen05-bg.jpg') center bottom no-repeat;
+    }
+    .screen05 h1 {
+        font-size: 30px;
+    }
+    .screen05 p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .screen05-title h1{
+        font-size: 36px;
+        color: #000;
+        font-weight: bold;
+    }
+    .screen05-title h2{
+        font-size: 21px;
+        color: #000;
+    }
+    .screen05-cont > div > div, .screen05-right {
+        position: relative;
+    }
+    .shop-after {
+        left: 65px;
+    }
+    .logistics {
+        top: 30px;
+        left: -68px;
+    }
+    .operate {
+        top: 110px;
+        left: 5px;
+    }
+    .screen05-title {
+        top: 80px;
+        left: -20px;
+    }
+    .screen05-title h2 {
+        line-height: 13px;
+    }
+    .technology {
+        top: 160px;
+        left: -100px;
+    }
+    .shopping {
+        top: 165px;
+        left: -60px;
+    }
+    .screen05-right {
+        font-size: 19px;
+        color: #fff;
+        top: 170px;
+        left: -80px;
+    }
+/* screen05 end */
+@media (max-width:1199px){
+   /* screen01 start */
+    .screen01 {
+        height: 468px;
+    }
+    .screen01-lt-png {
+        width: 113%;
+        height: auto;
+    }
+    .screen01-rt-top-png {
+        margin-top: 20%;
+        width: 98%;
+    }
+    .screen01-rt-bottom-png {
+        width: 59%;
+        margin-top: 37px;
+        margin-left: 32%;
+    }
+    /* screen01 end */
+    /* screen02 start */
+    .screen02 {
+        padding-top: 2%;
+    }
+    .screen02 hgroup > h1 {
+        font-size: 3em;
+    }
+    .screen02 hgroup > h2 {
+        font-size: 1.3em;
+        margin-bottom: 6%;
+    }
+    .rotaryCarousel > ul {
+        height: 440px;
+    }
+    .rotaryCarousel > ul > li{
+        width: 30%;
+        height: 318.6px;
+    }
+    .rotaryCarousel > ul > li > div {
+        width: 86%;
+    }
+    .rotaryCarousel img {
+        width: 86%;
+        height: 10%;
+    }
+
+    .rotaryCarousel h2 {
+        font-size: 1em;
+    }
+    .rotaryCarousel p {
+        font-size: 1px;
+    }
+    .rotaryCarousel i {
+        font-size: 1.5em;
+    }
+    .rotaryCarousel > ul > li.rotaryCarousel-left {
+        left: 50px;
+    }
+    .rotaryCarousel > ul > li.rotaryCarousel-current{
+        width: 40%;
+        height: 440px;
+        left: 232px;
+    }
+    .rotaryCarousel > ul > li.rotaryCarousel-right {
+        left: 545px;
+    }
+    .rotaryCarousel .rotaryCarousel-current img {
+        width: 98%;
+    }
+    .rotaryCarousel .rotaryCarousel-current h2 {
+        font-size: 1.3em;
+    }
+    .rotaryCarousel .rotaryCarousel-current p {
+        font-size: 1.3em;
+    }
+    /* screen02 end */
+    /* screen03 start */
+    .screen03 {
+        background-color: #f3f3f3;
+        margin-top: 130px;
+    }
+    .hgroup-box h1 {
+        font-size: 3.25em;
+    }
+    .hgroup-box h2 {
+        font-size: 1.6em;
+    }
+    .title-item i,.title-arrow i {
+        font-size: 8.3em;
+    }
+    .screen03-cont {
+        margin-top: 130px;
+        height: 504px;
+        background: url(../img/bsiVal-screen03-phoneShow.png) center bottom no-repeat;
+        background-size: 40%;
+    }
+    .screen03-cont > div:first-child > img {
+        width: 70%;
+    }
+    .screen03-cont > div:nth-child(2) > img {
+        width: 70%;
+    }
+    .screen03-cont > div:last-child > img {
+        width: 70%;
+    }
+    /* screen03 end */
+    /* screen04 start */
+    .screen04 {
+        height: 482px;
+    }
+    .screen04-dashDesc-ltTp {
+        top: 39px;
+        width: 100%;
+    }
+    .screen04-dashDesc-ltBt {
+        top: 62px;
+        width: 100%;
+    }
+    .screen04-cener {
+        width: 100%;
+    }
+    .screen04-dashDesc-rtTp {
+        width: 100%;
+        left: -7px;
+        top: 25px;
+    }
+    .screen04-dashDesc-rtCt {
+        width: 100%;
+        left: -7px;
+        top: 67px;
+    }
+    .screen04-dashDesc-rtBt {
+        width: 100%;
+        top: 103px;
+        left: -7px;
+    }
+/* screen04 end */
+/* screen05 start */
+    .screen05 .screen05-center {
+        font-size: 12px;
+        height: 780px;
+        background-size: 100%;
+        padding-top: 160px;
+    }
+    .screen05 h1 {
+        font-size: 2em;
+    }
+    .screen05 p {
+        font-size: 1.2em;
+        line-height: 1.3em;
+    }
+    .screen05-title h1{
+        font-size: 2.2em;
+    }
+    .screen05-title h2{
+        font-size: 1.3em;
+    }
+    .shop-after {
+        top: 10px;
+        left: 6%;
+    }
+    .logistics {
+        top: 40px;
+        left: -8%;
+    }
+    .operate {
+        top: 115px;
+        left: -3%;
+    }
+    .screen05-title {
+        top: 85px;
+        left: -4%;
+    }
+    .screen05-title h2 {
+        line-height: 0.4em;
+    }
+    .technology {
+        top: 160px;
+        left: -11%;
+    }
+    .shopping {
+        top: 165px;
+        left: -8%;
+    }
+    .screen05-right {
+        font-size: 1.1em;
+        color: #fff;
+        top: 155px;
+        left: -4.5%;
+    }
+/* screen05 end */
+}
+@media (max-width:992px){
+    /* screen01 start */
+   .screen01 {
+        height: 360px;
+   }
+   /* screen01 end */
+   /* screen02 start */
+   .screen02 {
+        font-size: 9px;
+   }
+   .rotaryCarousel span {
+    padding-top: 140px;
+   }
+   .rotaryCarousel > ul {
+        height: 341px;
+   }
+   .rotaryCarousel > ul > li{
+        width: 36%;
+        height: 318.6px;
+        margin-left: -6%;
+    }
+    .rotaryCarousel > ul > li div{
+        width: 100%;
+        top: 13%;
+    }
+    .rotaryCarousel img {
+        width: 80%;
+        height: 10%;
+    }
+    .rotaryCarousel > ul > li.rotaryCarousel-left {
+        left: 70px;
+    }
+    .rotaryCarousel > ul > li.rotaryCarousel-current{
+        width: 40%;
+        height: 341px;
+        left: 210px;
+    }
+    .rotaryCarousel .rotaryCarousel-current img {
+        height: 180px;
+    }
+    .rotaryCarousel > ul > li.rotaryCarousel-right {
+        left: 400px;
+    }
+   /* screen02 end */
+   /* screen03 start */
+    .screen03 {
+        font-size: 8px;
+        margin-top: 90px;
+    }
+    .title-box {
+        top: -50px;
+    }
+    .screen03 .title-line {
+        padding-top: 20px;
+    }
+    .hgroup-box {
+        padding-top: 3px;
+        padding-bottom: 9px;
+    }
+    .hgroup-box h2 {
+        margin-top: 5px;
+    }
+    .title-item {
+        padding-right: 0px;
+    }
+    .title-arrow {
+        padding-left: 0px;
+    }
+    .screen03-cont {
+        margin-top: 90px;
+        height: 383px;
+        background: url(../img/bsiVal-screen03-phoneShow.png) center bottom no-repeat;
+        background-size: 40%;
+    }
+    .screen03-cont > div:first-child > img {
+        width: 70%;
+    }
+    .screen03-cont > div:nth-child(2) > img {
+        top: 253px;
+        width: 70%;
+    }
+    .screen03-cont > div:last-child > img {
+        left: -48px;
+        top: 39px;
+        width: 70%;
+    }
+    /* screen03 end */
+    /* screen04 start */
+    .screen04 {
+        height: 432px;
+    }
+    /* scren04 end */
+/* screen05 start */
+    .screen05 .screen05-center {
+        height: 606px;
+        padding-top: 115px;
+        font-size: 10px;
+    }
+    .screen05 h1 {
+        margin-bottom: 5px;
+    }
+    .screen05-title h1{
+        font-size: 2.2em;
+    }
+    .screen05-title h2{
+        font-size: 1.3em;
+    }
+    .logistics {
+        left: -7%;
+    }
+    .operate {
+        top: 85px;
+    }
+    .screen05-title {
+        top: 65px;
+    }
+    .screen05-title h2 {
+        line-height: 0.05em;
+    }
+    .technology {
+        top: 115px;
+    }
+    .shopping {
+        top: 115px;
+    }
+    .screen05-right {
+        top: 125px;
+    }
+/* screen05 end */
+}
+@media (max-width:768px){
+    .container {
+        width: 750px;
+    }
+}

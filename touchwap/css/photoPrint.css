@@ -1,1 +1,178 @@
-.path01,.path01-2,.path01-4,.path03,.path03-4{overflow:hidden}.path02-1>h1,.path02-1>h2,.path03-4>li>dfn,.path03-4>li>i{display:inline-block;font-weight:700}.path01-1,.path01-2>li,.path01-3,.path02-1>h1,.path02-1>h2,.path03-4>li>i{font-weight:700}html{font-size:12px}.content{width:24rem;margin-left:auto;margin-right:auto}.path01{background-color:#32ccfe;padding-top:6rem;padding-bottom:1.7rem}.path01-1{font-size:3.5rem;color:#fff;margin-bottom:2rem}.path01-2{width:22.75rem}.path01-2>li{width:7.25rem;height:3.5rem;background-color:#fff;font-size:1.166rem;padding:.2rem;line-height:2.9rem;float:left}.path01-4-2-right,.path03-4>li{padding-left:.5rem}.path01-2>li+li{margin-left:.5rem}.path01-2>li>p{border:2px dashed #32ccfe;color:#32ccfe}.path01-4-2-left,.path03-4>li{border-right:1px solid #fff;padding-right:.5rem}.path01-3{font-size:1.75rem;color:#ffe958;margin-top:1.5rem;margin-bottom:2rem}.path01-4{position:relative}.path01-4-1{width:14.096rem;float:left}.path01-4-2{float:left;color:#fff;font-style:normal;position:absolute;left:14.596rem;bottom:0}.path01-4-2>div{float:left}.path01-4-2-left>i,.path01-4-2-right>i{font-style:normal;font-size:2rem}.path01-4-2-left>i:last-child,.path01-4-2-right>i:last-child{font-size:1rem}.path02-1>h1{color:#25c6fd;font-size:3rem;border-bottom:2px solid #25c6fd;padding-bottom:.5rem;margin-bottom:0;margin-top:1.666rem}.path02-1>h2{color:#fff100;font-size:1.5rem;margin-top:.7rem;margin-bottom:4rem;letter-spacing:.25rem;text-shadow:0 .25rem .25rem #c8b58d}.path02-3{width:21.083rem;margin-top:3.5rem;font-size:1.166rem;margin-bottom:3.2rem}.path02-4{color:#bfeeff;font-size:1.516rem;padding-bottom:2.5rem}.path03{color:#fff;background-color:#32ccfe;padding-top:2.5rem}.path03-1>h1{font-size:2.5rem;margin-top:0}.path03-1>p{font-size:.833rem;margin-bottom:4rem}.path03-2>p{padding-top:1.6rem;font-size:1.5rem;margin-bottom:0}.path03-3>h2{font-size:2rem;margin-top:3rem;margin-bottom:.833rem}.path03-3>p{font-size:1rem;max-width:none;margin-bottom:4rem}.path03-4{width:20.5rem;margin-bottom:2rem}.path03-4>li{float:left;height:11.5rem}.path03-4>li>i{width:1.516rem;font-size:1.516rem;word-break:break-all;font-style:normal;vertical-align:top}.path03-4>li>dfn{width:1.166rem;font-style:normal;font-size:1.166rem;line-height:1.3rem;color:#6c6c6c}.path03-5{font-size:1.516rem;color:rgba(255,255,255 ,.6);margin-top:0;margin-bottom:4rem}
+html {
+    font-size: 12px;
+}
+.content {
+    width: 24rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.path01 {
+    background-color: #32ccfe;
+    overflow: hidden;
+    padding-top: 6rem;
+    padding-bottom: 1.7rem;
+}
+.path01-1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.path01-2 {
+    width: 22.75rem;
+    overflow: hidden;
+}
+.path01-2 > li{
+    width: 7.25rem;
+    height: 3.5rem;
+    background-color: #fff;
+    font-size: 1.166rem;
+    font-weight: bold;
+    padding: 0.2rem;
+    line-height: 2.9rem;
+    float: left;
+}
+.path01-2 > li + li {
+    margin-left: 0.5rem;
+}
+.path01-2 > li > p {
+    border: 2px dashed #32ccfe;
+    color: #32ccfe;
+}
+.path01-3 {
+    font-size: 1.75rem;
+    color: #ffe958;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.path01-4 {
+    overflow: hidden;
+    position: relative;
+}
+.path01-4-1 {
+    width: 14.096rem;
+    float: left;
+}
+.path01-4-2 {
+    float: left;
+    color: #fff;
+    font-style: normal;
+    position: absolute;
+    left: 14.596rem;
+    bottom: 0rem;
+}
+.path01-4-2 > div {
+    float: left;
+}
+.path01-4-2-left {
+    border-right: 1px solid #fff;
+    padding-right: 0.5rem;
+    /* width: 4.6rem; */
+}
+.path01-4-2-right {
+    padding-left: 0.5rem;
+}
+.path01-4-2-left > i,.path01-4-2-right > i {
+    font-style: normal;
+    font-size: 2rem;
+}
+.path01-4-2-left > i:last-child,.path01-4-2-right > i:last-child {
+    font-size: 1rem;
+}
+.path02-1 > h1 {
+    display: inline-block;
+    color: #25c6fd;
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 2px solid #25c6fd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+    margin-top: 1.666rem;
+}
+.path02-1 > h2 {
+    display: inline-block;
+    color: #fff100;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.7rem;
+    margin-bottom: 4rem;
+    letter-spacing: 0.25rem;
+    text-shadow: 0 0.25rem 0.25rem #c8b58d;
+}
+.path02-3 {
+    width: 21.083rem;
+    margin-top: 3.5rem;
+    font-size: 1.166rem;
+    margin-bottom: 3.2rem;
+}
+.path02-4 {
+    color: #bfeeff;
+    font-size: 1.516rem;
+    padding-bottom: 2.5rem;
+}
+.path03 {
+    color: #fff;
+    background-color: #32ccfe;
+    overflow: hidden;
+    padding-top: 2.5rem;
+}
+.path03-1 > h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+.path03-1 > p {
+    font-size: 0.833rem;
+    margin-bottom: 4rem;
+}
+.path03-2 > p {
+    padding-top: 1.6rem;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.path03-3 > h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.833rem;
+}
+.path03-3 > p {
+    font-size: 1rem;
+    max-width: none;
+    margin-bottom: 4rem;
+}
+.path03-4 {
+    width: 20.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.path03-4 > li{
+    float: left;
+    border-right: 1px solid #fff;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    height: 11.5rem;
+}
+.path03-4 > li > i {
+    display: inline-block;
+    width: 1.516rem;
+    font-size: 1.516rem;
+    font-weight: bold;
+    word-break: break-all;
+    font-style: normal;
+    vertical-align: top;
+}
+.path03-4 > li > dfn {
+    display: inline-block;
+    width: 1.166rem;
+    font-style: normal;
+    font-size: 1.166rem;
+    line-height: 1.3rem;
+    color: #6c6c6c;
+    font-weight: bold;
+}
+.path03-5 {
+    font-size: 1.516rem;
+    color: rgba(255, 255, 255 ,0.6);
+    margin-top: 0;
+    margin-bottom: 4rem;
+}

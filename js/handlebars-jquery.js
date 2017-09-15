@@ -1,1 +1,31 @@
-﻿!function(e){Handlebars.registerHelper("gt",function(e,r,t){return e>r?t.fn(this):t.inverse(this)}),Handlebars.registerHelper("gtValAttr",function(){return"value='"+(this.stock>0?"1":"0")+"'"}),Handlebars.registerHelper("inputElem",function(r,t,n){return n.hash.name=r,n.hash.value=t>0?"1":"0",n.hash.required="required",e("<input>",n.hash)[0].outerHTML}),Handlebars.registerHelper("stockValue",function(e){return e.data.attributeValue=this.stock>0?"1":"0",e.fn(this)});var r={};e.fn.template=function(t){var n=e.trim(e(this).first().html());return void 0==r[n]&&(r[n]=Handlebars.compile(n)),e(r[n](t))}}(jQuery);
+﻿(function ($) {
+
+    Handlebars.registerHelper('gt', function (a, b, options) {
+        return (a > b) ? options.fn(this) : options.inverse(this);
+    });
+
+    Handlebars.registerHelper("gtValAttr", function () {
+        return "value='" + (this.stock > 0 ? "1" : "0") + "'";
+    });
+
+    Handlebars.registerHelper("inputElem", function (product, stock, options) {
+        options.hash.name = product;
+        options.hash.value = stock > 0 ? "1" : "0";
+        options.hash.required = "required";
+        return $("<input>", options.hash)[0].outerHTML;
+    });
+
+    Handlebars.registerHelper("stockValue", function (options) {
+        options.data.attributeValue = this.stock > 0 ? "1" : "0";
+        return options.fn(this);
+    });
+
+    var compiled = {};
+    $.fn.template = function (data) {
+        var template = $.trim($(this).first().html());
+        if (compiled[template] == undefined) {
+            compiled[template] = Handlebars.compile(template);
+        }
+        return $(compiled[template](data));
+    };
+})(jQuery);

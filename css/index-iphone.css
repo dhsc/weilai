@@ -1,1 +1,17 @@
-@media screen and (max-width:767px){.arrow-left>img,.arrow-right>img{width:12px}.arrow-left{left:10%}.arrow-right{right:10%}.container{width:753px}}
+@media screen and (max-width:767px){
+
+    /* carousel start */
+   .arrow-left > img,.arrow-right > img {
+        width: 12px;
+    }
+    .arrow-left {
+        left: 10%;
+    }
+    .arrow-right {
+        right: 10%;
+    }
+    /* carousel end */
+    .container {
+        width: 753px;
+    }
+}
