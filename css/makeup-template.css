@@ -206,7 +206,7 @@
     .screen08 {
         width: 100%;
         height: 400px;
-        background: url(../img/makeup-template-screen08-bg.jpg)
+        background: url(../img/makeup-template-screen08-bg.jpg) no-repeat;
     }
 /* screen08 end */
 /* screen09 start */

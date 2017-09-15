@@ -15,7 +15,7 @@ body {
     .screen01 {
         margin-top: 39px;
         height: 439px;
-        background: url(../img/ktv-template-screen01-bg.jpg);
+        background: url(../img/ktv-template-screen01-bg.jpg) no-repeat;
         background-size: cover;
     }
     .screen01-content,.screen03-content {
@@ -87,7 +87,7 @@ body {
 /* screen02 end */
 /* screen03 start */
     .screen03 {
-        background: url(../img/ktv-template-screen01-bg.png);
+        background: url(../img/ktv-template-screen01-bg.jpg) no-repeat;
         position: relative;
     }
     .screen03-content > img {
@@ -110,7 +110,7 @@ body {
 /* screen05 start */
     .screen05 {
         width: 100%;
-        background: url(../img/ktv-template-screen01-bg.png);
+        background: url(../img/ktv-template-screen01-bg.jpg) no-repeat;
     }
     .screen05-box > div:nth-of-type(1) {
         position: relative;
