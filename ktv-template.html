@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8" />
     <title>KTV模板</title>
-    <meta http-equiv="refresh" content="5">
 <!-- bootstrap start -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -116,20 +115,22 @@
     <script src="js/jquery.stellar.js"></script>
     <script src="js/jquery.smoove.js"></script>
     <script>
-        $.stellar({
-            horizontalScrolling: false,
-            verticalOffset: -95,
-        });
-        $('.screen05-item').smoove({
-            offset: '10%',
-            moveX: '200%'
-        });
-        $('.screen07-item').smoove({
-            offset: '10%',
-            moveY: '200px',
-            moveZ: '-500px',
-            rotateX: '90deg'
-        });
+        $(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: -95,
+            });
+            $('.screen05-item').smoove({
+                offset: '10%',
+                moveX: '200%'
+            });
+            $('.screen07-item').smoove({
+                offset: '10%',
+                moveY: '200px',
+                moveZ: '-500px',
+                rotateX: '90deg'
+            });
+        })
     </script>
 </body>
 </html>
