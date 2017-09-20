@@ -177,7 +177,7 @@
 /* footer start */
 footer {
     position: relative;
-    z-index: -1;
+    zoom: 1;
     width: 100%;
     height: 793px;
     background: url('../img/footer-bg.jpg') center center no-repeat;
