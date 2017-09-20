@@ -184,6 +184,9 @@ footer {
     background-size: cover;
     border-top: 1px solid #292929;
 }
+.youkuplayer1 {
+    zoom: 1;
+}
 .footer-video {
     width: 618px;
     height: 452px;
