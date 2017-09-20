@@ -115,6 +115,10 @@
     <script src="js/jquery.stellar.js"></script>
     <script src="js/jquery.smoove.js"></script>
     <script>
+        function myrefresh(){
+           window.location.reload();
+        }
+        setTimeout('myrefresh()',5000); //指定1秒刷新一次
         $.stellar({
             horizontalScrolling: false,
             verticalOffset: -95,
