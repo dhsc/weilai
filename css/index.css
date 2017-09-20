@@ -177,7 +177,6 @@
 /* footer start */
 footer {
     position: relative;
-    zoom: 1;
     width: 100%;
     height: 793px;
     background: url('../img/footer-bg.jpg') center center no-repeat;
@@ -187,7 +186,6 @@ footer {
 .footer-video {
     width: 618px;
     height: 452px;
-    zoom: 1;
     background: transparent url('../img/video.png') center center no-repeat;
     margin: -440px auto 0;
     padding-left: 41px;
@@ -196,7 +194,6 @@ footer {
 .youkuplayer1 {
     width: 533px;
     height: 336px;
-    zoom: 1;
 }
 .cooperative-show{
     color: #E5E5E5;
