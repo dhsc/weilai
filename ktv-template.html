@@ -116,7 +116,20 @@
     <script src="js/jquery.smoove.js"></script>
     <script>
         function myrefresh(){
-           window.location.reload();
+           $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: -95,
+            });
+            $('.screen05-item').smoove({
+                offset: '10%',
+                moveX: '200%'
+            });
+            $('.screen07-item').smoove({
+                offset: '10%',
+                moveY: '200px',
+                moveZ: '-500px',
+                rotateX: '90deg'
+            });
         }
         setTimeout('myrefresh()',5000); //指定1秒刷新一次
         $.stellar({
