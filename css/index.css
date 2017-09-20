@@ -184,9 +184,6 @@ footer {
     background-size: cover;
     border-top: 1px solid #292929;
 }
-.youkuplayer1 {
-    zoom: 1;
-}
 .footer-video {
     width: 618px;
     height: 452px;
@@ -198,6 +195,7 @@ footer {
 .youkuplayer1 {
     width: 533px;
     height: 336px;
+    zoom: 1;
 }
 .cooperative-show{
     color: #E5E5E5;
