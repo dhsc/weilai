@@ -187,6 +187,7 @@ footer {
 .footer-video {
     width: 618px;
     height: 452px;
+    zoom: 1;
     background: transparent url('../img/video.png') center center no-repeat;
     margin: -440px auto 0;
     padding-left: 41px;
