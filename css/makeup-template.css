@@ -57,22 +57,12 @@
 /* screen01 end */
 /* screen02 start */
     .screen02 {
-        margin-top: 190px;
-        background: url(../img/makeup-template-screen02.jpg);
-    }
-    .screen02,.screen04,.screen06,.screen08 {
-        /* position: relative;
+        position: relative;
         width: 100%;
         height: 570px;
+        margin-top: 190px;
         background: url(../img/makeup-template-screen02.jpg) center center no-repeat;
-        background-size: cover; */
-
-
-        background-attachment: fixed;
-        background-position: 50% 0;
-        background-repeat: no-repeat;
-        height: 530px;
-        position: relative;
+        background-size: cover;
     }
 /* screen02 end */
 /* screen03 start */
@@ -141,8 +131,8 @@
 /* screen03 end */
 /* screen04 start */
     .screen04 {
-        /* width: 100%;
-        height: 556px; */
+        width: 100%;
+        height: 556px;
         background: url(../img/makeup-template-screen04.jpg) center center no-repeat;
     }
 /* screen04 end */
@@ -183,8 +173,8 @@
 /* screen05 end */
 /* screen06 start */
     .screen06 {
-        /* width: 100%;
-        height: 623px; */
+        width: 100%;
+        height: 623px;
         background: url(../img/makeup-template-screen06-bg.jpg) center center no-repeat;
     }
 /* screen06 end */
@@ -214,8 +204,8 @@
 /* screen07 end */
 /* screen08 start */
     .screen08 {
-        /* width: 100%;
-        height: 400px; */
+        width: 100%;
+        height: 400px;
         background: url(../img/makeup-template-screen08-bg.jpg) no-repeat;
     }
 /* screen08 end */
