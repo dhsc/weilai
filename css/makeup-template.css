@@ -58,6 +58,7 @@
 /* screen02 start */
     .screen02 {
         margin-top: 190px;
+        background: url(../img/makeup-template-screen02.jpg);
     }
     .screen02,.screen04,.screen06,.screen08 {
         /* position: relative;
