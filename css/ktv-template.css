@@ -77,20 +77,12 @@ body {
 /* screen01 end */
 /* screen02 start */
     .screen02 {
-        margin-top: 185px;
-        background: url(../img/ktv-template-screen02-bg.jpg) center center no-repeat;
-    }
-    .screen02,.screen04,.screen06 {
-        /* position: relative;
+        position: relative;
         width: 100%;
         height: 528px;
-        background-size: cover; */
-
-        background-attachment: fixed;
-        background-position: 50% 0;
-        background-repeat: no-repeat;
-        height: 530px;
-        position: relative;
+        margin-top: 185px;
+        background: url(../img/ktv-template-screen02-bg.jpg) center center no-repeat;
+        background-size: cover;
     }
 /* screen02 end */
 /* screen03 start */
@@ -109,7 +101,10 @@ body {
 /* screen03 end */
 /* screen04 start */
     .screen04 {
+        width: 100%;
+        height: 551px;
         background: url(../img/ktv-template-screen04-bg.jpg) center center no-repeat;
+        background-size: cover;
     }
 /* screen04 end */
 /* screen05 start */
@@ -169,7 +164,10 @@ body {
 /* screen05 end */
 /* screen06 start */
     .screen06 {
+        width: 100%;
+        height: 518px;
         background: url(../img/ktv-template-screen06-bg.jpg) center center no-repeat;
+        background-size: cover;
     }
 /* screen06 end */
 /* screen07 start */
