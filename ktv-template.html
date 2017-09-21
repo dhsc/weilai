@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- 若比IE9更老，则加载jQuery-1.10.1版本，否则加载jQuery-2.0.2版本 -->
     <!--[if lt IE 9]>
         <script src="js/jquery-1.10.1.js" type="text/javascript"></script>
@@ -32,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
 
 
+    <script src="js/ktv-template.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="navbar-ajax"></div>
@@ -62,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section class="screen02" data-stellar-background-ratio="0.8" style="height: 570px;"></section>
+    <section class="screen02" data-stellar-background-ratio="0.6"></section>
     <section class="screen03">
         <div class="container">
             <div class="screen03-content center-block">
@@ -72,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="screen04" data-stellar-background-ratio="0.6" style="height: 556px;"></section>
+    <section class="screen04" data-stellar-background-ratio="0.8"></section>
     <section class="screen05 text-center">
         <div class="container screen05-box">
             <div class="col-md-2 col-sm-2 col-xs-2">
@@ -96,7 +98,7 @@
 
         </div>
     </section>
-    <section class="screen06" data-stellar-background-ratio="0.8" style="height: 550px;"></section>
+    <section class="screen06" data-stellar-background-ratio="0.8"></section>
     <section class="screen07 text-center">
         <div class="container screen07-box">
             <img src="img/ktv-template-screen07-tp.png" alt="">
@@ -109,28 +111,20 @@
     <script src="js/jquery.stellar.js"></script>
     <script src="js/jquery.smoove.js"></script>
     <script>
-        $(function(){
-            $.stellar({
-                horizontalScrolling: false,
-                verticalOffset: 100
-            });
-        })
-    </script>
-    <script>
-        (function($){
-            $('.screen05-item').smoove({
-                offset: '10%',
-                moveX: '200%'
-            });
-        })(jQuery);
-        (function($){
-            $('.screen07-item').smoove({
-                offset: '10%',
-                moveY: '200px',
-                moveZ: '-500px',
-                rotateX: '90deg'
-            });
-        })(jQuery);
+        $.stellar({
+            horizontalScrolling: false,
+            verticalOffset: -95,
+        });
+        $('.screen05-item').smoove({
+            offset: '10%',
+            moveX: '200%'
+        });
+        $('.screen07-item').smoove({
+            offset: '10%',
+            moveY: '200px',
+            moveZ: '-500px',
+            rotateX: '90deg'
+        });
     </script>
 </body>
 </html>
