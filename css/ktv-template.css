@@ -294,9 +294,6 @@ body {
     .screen04 {
         height: 450px;
     }
-    .screen05 {
-        margin-top: -80px;
-    }
     .screen05-box > div:nth-of-type(2) > img {
         margin-top: -53px;
     }

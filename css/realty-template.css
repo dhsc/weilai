@@ -72,6 +72,9 @@
     }
 /* screen04 end */
 /* screen05 start */
+    .screen05 {
+        position: relative;
+    }
     .screen05-box > img {
         width: 80%;
     }
