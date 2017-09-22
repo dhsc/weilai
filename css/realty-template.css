@@ -42,7 +42,6 @@
         width: 100%;
         background-position: 50% 0;
         background-repeat: no-repeat;
-        background-size: 100% auto;
         background-attachment: fixed;
     }
     .screen02 {
@@ -87,7 +86,7 @@
 /* screen05 end */
 /* screen06 start */
     .screen06 {
-        height: 623px;
+        height: 625px;
         background-image: url(../img/realty-template-screen06-bg.jpg);
     }
 /* screen06 end */

@@ -64,13 +64,15 @@
     .screen02,.screen04,.screen06,.screen08 {
         position: relative;
         width: 100%;
-        background-position: 50% 0;
+        background-position: 50% 50%;
         background-repeat: no-repeat;
-        background-size: 100% auto;
         background-attachment: fixed;
     }
 /* screen02 end */
 /* screen03 start */
+    .screen03 {
+        position: relative;
+    }
     .screen03-lt > img {
         width: 120%;
         margin-top: -170px;
@@ -142,6 +144,7 @@
 /* screen04 end */
 /* screen05 start */
     .screen05-box > p:first-child {
+        position: relative;
         width: 40%;
         font-size: 3.3em;
         font-weight: bold;
@@ -177,11 +180,14 @@
 /* screen05 end */
 /* screen06 start */
     .screen06 {
-        height: 623px;
+        height: 550px;
         background-image: url(../img/makeup-template-screen06-bg.jpg);
     }
 /* screen06 end */
 /* screen07 start */
+    .screen07 {
+        position: relative;
+    }
     .screen07-box > p:first-child {
         width: 47%;
         padding: 10px;
@@ -207,13 +213,14 @@
 /* screen07 end */
 /* screen08 start */
     .screen08 {
-        width: 100%;
+        height: 400px;
         background-image: url(../img/makeup-template-screen08-bg.jpg);
     }
 /* screen08 end */
 /* screen09 start */
     .screen09 {
         padding-bottom: 80px;
+        position: relative;
     }
     .screen09-tittle {
         width: 44%;
